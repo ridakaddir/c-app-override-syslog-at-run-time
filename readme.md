@@ -1,5 +1,10 @@
 This repo contains two applications to demonstrate the use of LD_PRELOAD to override the syslog method in a simple c app.
 
+## Pre-requisites
+- Docker
+- Docker dev container
+The apps are compiled and run in a docker container. The docker container is based on the debian image and contains the necessary tools to compile and run the apps.
+
 ## The Simple app
 The simple app is a simple c application that uses syslog to log messages to the syslog server. The app is compiled with the shared library zlog.so to override the syslog method at runtime. The shared library zlog.so intercepts the syslog calls and writes the log messages to the file system using the zlog library.
 
