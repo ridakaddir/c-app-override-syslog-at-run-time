@@ -1,0 +1,6 @@
+2024-05-01 19:14:31 INFO [45277:zlog/zlog.c:24] zlog initialized
+2024-05-01 19:14:31 INFO [45277:zlog/zlog.c:38] Hello 1 from syslog
+
+2024-05-01 19:14:31 INFO [45277:zlog/zlog.c:38] Hello 2 from syslog
+
+2024-05-01 19:14:31 INFO [45277:zlog/zlog.c:30] finishing zlog
